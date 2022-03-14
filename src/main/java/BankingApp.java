@@ -10,6 +10,7 @@ public class BankingApp {
         for (int i = 0; i < tableOfNewClients.length; i++) {
             tableOfNewClients[i] = new BankDetails();
             tableOfNewClients[i].openAccount();
+            tableOfNewClients[i].showAccount();
         }
         // loop runs until number 5 is not pressed to exit
         int inputNumber;
