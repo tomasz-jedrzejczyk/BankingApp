@@ -1,7 +1,10 @@
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class Testing {
+
+
 
     @Test
     public void methodToSeeIfAccountHaveBalance(){
@@ -10,5 +13,7 @@ public class Testing {
         Assert.assertEquals(100,bankDetails.getBalance());
 
     }
+
+
 
 }

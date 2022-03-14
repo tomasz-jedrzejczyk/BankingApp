@@ -86,7 +86,11 @@ class BankDetails {
     }
 
     public void setBalance(long balance) {
-        this.balance = balance+10;
+        this.balance = balance;
+    }
+
+    public int multiply(int x, int y) {
+        return x * y;
     }
 }
 
